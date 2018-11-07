@@ -4,7 +4,7 @@ from .views import persons_new
 from .views import persons_update
 from .views import persons_delete
 
-
+#comentários
 urlpatterns = [
     path('list/', persons_list, name='person_list'),
     path('new/', persons_new, name='person_new'),
